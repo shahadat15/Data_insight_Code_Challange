@@ -20,8 +20,8 @@ So there are total five python code files in src folder:
 5. Feature_4.py
 
 ### process_log.py
-This file mainly load the raw data, process and clean it, and finally save it into a dataframe. It is easier to analysis if the data could be saved into a dataframe. 
-Therefore, in this stage the data preprocessing is conducted. Later for each feature extraction different funtion are called which are stored in different files.
+This file mainly load the raw data, pre-process it, and finally save it into a dataframe. It is easier to do further analysis if the data is converted into a dataframe.  
+This code call other function (saved in other files) to extract the Features.
 
 ### Feature_1.py
 This file contains the code to list the top 10 most active hosts/IP addresses that have accessed the site. The code has following steps:
