@@ -1,0 +1,10 @@
+piweba3y.prodigy.com,22
+alyssa.prodigy.com,21
+piweba4y.prodigy.com,15
+piweba1y.prodigy.com,12
+163.206.89.4,12
+edams.ksc.nasa.gov,9
+trusty.lmsc.lockheed.com,8
+www-d3.proxy.aol.com,8
+198.133.29.18,7
+webgate1.mot.com,6
