@@ -4,13 +4,13 @@
 ## Language
 The program is written in Python language. The vertion that has been used is Python version 2.7.5.
 
-##Pre-built packages, modules, or libraries used
+## Pre-built packages, modules, or libraries used
 1. Pandas
 2. Datetime
 3. Time
 4. Re (Regular Expression)
 
-##Code details
+## Code details
 The main code is written in process_log.py file. For simplicity of the code, this file calls other four files for different Feature analysis.
 So there are total five python code files in src folder:
 1. process_log.py
