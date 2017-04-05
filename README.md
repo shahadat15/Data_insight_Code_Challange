@@ -24,16 +24,18 @@ This file mainly load the raw data, pre-process it, and finally save it into a d
 This code call other function (saved in other files) to extract the Features.
 
 ### Feature_1.py
-This file contains the code to list the top 10 most active hosts/IP addresses that have accessed the site. The code has following steps:
+This file contains the code to list the top 10 most active hosts/IP addresses that have accessed the site. 
+The code has following steps:
 1. Group the data by host
 2. Count the number of data points at each group
 3. sort the count data
 4. Write the top 10 list
 
 ### Feature_2.py
-This file contains the 10 resources that consume the most bandwidth on the site. The code has following steps:
+This file contains the 10 resources that consume the most bandwidth on the site. 
+The code has following steps:
 1. Group the data by Request
-2. Sum the total bytes used by each group and also calcualte the total no of datapoints at each group
+2. Sum the total bytes (sum) used by each group and also calcualte the total no of datapoints (count) at each group
 3. sort the count data by sum and then count
 4. Write the top 10 list
 
@@ -42,13 +44,17 @@ This file contains the list of top 10 busiest (or most frequently visited) 60-mi
 The code has following steps:
 1. Find a list (time_unique) of times when there is a website visit
 2. It is assumed that the total frequency of website hit will change when there is a new visit. So for each item of time_unique list the total number of website visit is calculated for the subsequent one hour
-3. Sort the dataframe in decending order according to the number of count 
-4. Write the top 10 list
+3. Save the start time of the interval and the visit count into a dataframe 
+4. Sort the dataframe in decending order according to the number of count 
+5. Write the top 10 list
 
 ### Feature_4.py
-This file contains code to detect patterns of three failed login attempts from the same IP address over 20 seconds so that all further attempts to the site can be blocked for 5 minutes. Those possible security breaches are logged in blocked.txt file.
+This file contains code to detect patterns of three failed login attempts from the same IP address over 20 seconds so that all further attempts to the site can be blocked for 5 minutes and could be logged in blocked.txt file.
 The code has following steps:
 1. The data is grouped by host
 2. A for loop is run to do the analysis by each group (host)
 3. Another for loop is run over the website visit of the host
 4. Some conditional clause is writeen to find the prefered security breaches
+
+## Testing
+The code has been tested with the provided testing data. Along with a setup dataset has been taken in "you-own-test" folder for further testing. 
