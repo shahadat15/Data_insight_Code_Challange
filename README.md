@@ -1,5 +1,5 @@
-# fancite-analytics-challenge solution 
-## By Shahadat Iqbal
+# fancite-analytics-challenge
+#### By Shahadat Iqbal
 
 ## Language
 The program is written in Python language. The vertion that has been used is Python version 2.7.5.
